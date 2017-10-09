@@ -22,11 +22,11 @@ Note: When you're done, submit a PR.
   
 5. What's `this` in JavaScript?
 
-  this refers to the function in which is was invoked
+  this refers to the function in which is was invoked. 
   
 6. What is Webpack and why is it useful?
 
-   A webpack collects all f your assets and dependencies, compiles it and creates a bundled js file from it.
+   A webpack collects all of your assets and dependencies, compiles it and creates a bundled js file from it.
    
 7. When/why do you want to use event delegation?
 
@@ -42,6 +42,13 @@ Note: When you're done, submit a PR.
   
   1. Based on the request, the controller asks the model for information.
   2. The model connects with the database, parses the information, and gives it to the controller
-  3. The controller gives that
+  3. The controller gives that information to the view and the view handles how to display it.
+  
 10. What are a few ways to optimize a Rails application?
+  
+  Using serializers to filter only the information you want to display, Presenters to make sure you only have one instance in the view, and loading a webpage section by section instead of trying to load everything at once.
+
 11. What's a background worker? When would we want to use a background worker?
+  
+  A background worker gets sent off to do tasks while the system keeps running. For example, when a customer buys an item off amazon, when they click 'Buy', the background worker sends the information to the queue, but the page loads to say order is complete even if the order has not yet been paid for. In doing this, the customer does not have to wait for the long process of transaction.
+
