@@ -49,7 +49,12 @@ Note: When you're done, submit a PR.
   
 11. Describe a RESTful API.
 
-  A RESTful API adheres to the standards of having only the following actions: get,post, put, patch, and destroy
+  A RESTful API adheres to the standards of having only the following actions: get, post, put, patch, and destroy
   
 12. What are some main characteristics of a team following an agile workflow?
+ 
+  In an agile workflow, teammates work on different tasks and tracked by a project management tool.
+  
 13. What are some advantages **and** disadvantages to using OAuth to authenticate a user?
+
+  OAuth makes it easier for users because it's a quicker sign up process. Users don't have to make a new password. It's disadvantage is that if the user deletes their account that was used for OAuth, they will have to create a new account.
