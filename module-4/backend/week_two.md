@@ -21,7 +21,6 @@ Note: When you're done, submit a PR.
   Using classes or prototypes and POJOs
   
  
- 
 5. What are some key concepts to be aware of when refactoring your JavaScript?
 
   Break functions and parts of code up into separate files i.e eventHandler, request, handler
@@ -50,6 +49,7 @@ Note: When you're done, submit a PR.
   
 11. Describe a RESTful API.
 
+  A RESTful API adheres to the standards of having only the following actions: get,post, put, patch, and destroy
   
 12. What are some main characteristics of a team following an agile workflow?
 13. What are some advantages **and** disadvantages to using OAuth to authenticate a user?
